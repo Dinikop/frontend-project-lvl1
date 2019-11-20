@@ -1,0 +1,39 @@
+{
+  "name": "frontend-project-lvl1",
+  "version": "1.0.0",
+  "description": "My first learning project",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinikoff/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "learning",
+    "frontend",
+    "npm",
+    "brain-games",
+    "hexlet"
+  ],
+  "author": "dinikoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinikoff/frontend-project-lvl1/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/dinikoff/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  }
+}
