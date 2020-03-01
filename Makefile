@@ -1,4 +1,5 @@
-install: install-deps
+install: 
+	install-deps
 
 run:
 	npx babel-node 'src/bin/brain-games.js' 10
