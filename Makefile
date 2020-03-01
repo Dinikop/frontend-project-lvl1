@@ -1,5 +1,5 @@
 install: 
-	npm ci
+	npm install
 
 run:
 	npx babel-node 'src/bin/brain-games.js' 10
